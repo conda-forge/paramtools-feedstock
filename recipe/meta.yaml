@@ -1,5 +1,5 @@
 {% set name = "paramtools" %}
-{% set version = "0.7.3" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f2f95e4c6e2cd35037a08f3a447249a42a9b4de7534df512623d9b99b3750352
+  sha256: eeeb7e819eda877d8e48ac3d58951340beb830e450123008afe45817071f7c4a
 
 build:
   noarch: python
