@@ -40,7 +40,7 @@ about:
     ParamTools defines the inputs for computational modeling projects,
     facilitates updating the default inputs, and validating the inputs.
     ParamTools is also used to build GUIs.
-  doc_url: http://paramtools.readthedocs.io/
+  doc_url: https://paramtools.org
   dev_url: https://github.com/PSLmodels/ParamTools
 
 extra:
