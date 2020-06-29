@@ -1,7 +1,7 @@
 About paramtools
 ================
 
-Home: http://github.com/PSLmodels/ParamTools
+Home: https://github.com/PSLmodels/ParamTools
 
 Package license: MIT
 
