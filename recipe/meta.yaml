@@ -1,5 +1,5 @@
 {% set name = "paramtools" %}
-{% set version = "0.14.1" %}
+{% set version = "0.14.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8e5e3e799d008bf647399abd1ab66a7429a85224b004b6ce11ee5a0773f1e30d
+  sha256: 549121fc4888003fde4e23fac95789b12e24c1e93420b54f629f4eddabb17990
 
 build:
   noarch: python
@@ -30,7 +30,7 @@ test:
     - paramtools.contrib
 
 about:
-  home: http://github.com/PSLmodels/ParamTools
+  home: https://github.com/PSLmodels/ParamTools
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
