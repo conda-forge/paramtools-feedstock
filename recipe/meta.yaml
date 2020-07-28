@@ -23,6 +23,7 @@ requirements:
     - marshmallow >=3.0.0
     - numpy
     - python-dateutil >=2.8.0
+    - fsspec
 
 test:
   imports:
