@@ -5,7 +5,7 @@ Home: https://github.com/PSLmodels/ParamTools
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Library for parameter processing and validation with a focus on computational modeling projects 
 
