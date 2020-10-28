@@ -5,9 +5,13 @@ Home: https://github.com/PSLmodels/ParamTools
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/paramtools-feedstock/blob/master/LICENSE.txt)
 
 Summary: Library for parameter processing and validation with a focus on computational modeling projects 
+
+Development: https://github.com/PSLmodels/ParamTools
+
+Documentation: https://paramtools.dev
 
 ParamTools defines the inputs for computational modeling projects,
 facilitates updating the default inputs, and validating the inputs.
