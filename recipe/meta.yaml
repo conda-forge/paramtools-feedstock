@@ -1,5 +1,5 @@
 {% set name = "paramtools" %}
-{% set version = "0.15.1" %}
+{% set version = "0.16.0" %}
 
 package:
   name: {{ name|lower }}
@@ -24,6 +24,7 @@ requirements:
     - numpy
     - python-dateutil >=2.8.0
     - fsspec
+    - sortedcontainers
 
 test:
   imports:
