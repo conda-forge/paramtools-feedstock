@@ -1,5 +1,5 @@
 {% set name = "paramtools" %}
-{% set version = "0.15.1" %}
+{% set version = "0.16.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: dc5fdf6b42870a21b2f89bc0febda12b64f94c94140c3d7c9962152c919209c4
+  sha256: 2c1b7d63bf26176c770ced98c42b01cd7fed8d77a2e5537b9474496b52ea6a7d
 
 build:
   noarch: python
@@ -24,6 +24,7 @@ requirements:
     - numpy
     - python-dateutil >=2.8.0
     - fsspec
+    - sortedcontainers
 
 test:
   imports:
