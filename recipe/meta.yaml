@@ -1,5 +1,5 @@
 {% set name = "paramtools" %}
-{% set version = "0.18.0" %}
+{% set version = "0.18.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bfa0d8baee144e9277849fdb7db1eca93a41a2353f32f8f907a0ac1d15baf9e3
+  sha256: a345a1ed135fd650b5c4626b79cf85e8e2d06673d5b225986e309763335dd176
 
 build:
   noarch: python
@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
     - marshmallow >=3.0.0
     - numpy
     - python-dateutil >=2.8.0
