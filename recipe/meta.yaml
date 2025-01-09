@@ -11,15 +11,15 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - marshmallow >=3.0.0
     - numpy
     - python-dateutil >=2.8.0
@@ -27,6 +27,8 @@ requirements:
     - sortedcontainers
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - paramtools
     - paramtools.contrib
