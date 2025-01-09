@@ -1,5 +1,5 @@
 {% set name = "paramtools" %}
-{% set version = "0.18.3" %}
+{% set version = "0.19.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: df376659101d776fed527d0dbb05817e14cc70b5a47818ef05ad7902ac8bb7d5
+  sha256: cfb36a54c7deee164b10290a9c3c08fd1b865ee22f6dbecd3cbbc55a2a021b1e
 
 build:
   noarch: python
@@ -50,3 +50,4 @@ about:
 extra:
   recipe-maintainers:
     - hdoupe
+    - jdebacker
