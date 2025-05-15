@@ -153,4 +153,5 @@ Feedstock Maintainers
 =====================
 
 * [@hdoupe](https://github.com/hdoupe/)
+* [@jdebacker](https://github.com/jdebacker/)
 
